@@ -1,0 +1,27 @@
+{
+  "name": "rmd-bot-whatsapp",
+  "version": "4.0.0",
+  "description": "WhatsApp Bot Premium par RMD125",
+  "main": "bot.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.18.2",
+    "pino": "^8.19.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "rmd125"
+  ],
+  "author": "RMD125",
+  "license": "MIT"
+}
